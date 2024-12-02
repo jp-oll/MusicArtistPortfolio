@@ -1,0 +1,501 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #000000;
+}
+
+h1 {
+    color: #fba579;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.navbar ul a {
+    color: black;
+    background-color: #fbe1cd;
+    padding: 0.3125em 0.9375em;
+    border-radius: 2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+}
+
+.read-more-btn {
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.read-more-btn:hover {
+    background-color: black;
+    padding: 10px;
+}
+
+.full-text {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+
+.album-tour {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25em; 
+    background: black;
+}
+
+.tour img, .latest-album img {
+    width: 100%;
+    max-width: 25em; 
+    border: 0.1875em solid orange;
+}
+
+.latest-album {
+    max-width: 50%;
+    padding: 0 1.25em; 
+    background-color: orange;
+}
+
+.latest-album img {
+    margin-left: 7.90em;
+    width: 100em;
+    max-width: 40em; 
+    border: 0.1875em solid orange;
+}
+.tour img {
+    width: 100%;
+    max-width: 30em; 
+    border: 0.1875em solid orange;
+}
+
+.latest-album h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 0.625em; 
+    text-align: left;
+}
+.latest-album h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 0.625em; 
+    text-align: center;
+}
+
+.latest-album p {
+    color: #000;
+    font-size: 1em;
+    margin-bottom: 0.625em; 
+    text-align: justify;
+    background-color: #fbe1cb;
+    padding: 1em;
+}
+
+.Readmore-section {
+    max-width: 1200px;
+    margin: 0;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    width: 158.6%;
+}
+
+.image-grid img {
+    width: 102.5%;
+    height: 26.7em;
+}
+
+.Readmore-artist {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ffcc99;
+    padding: 10px;
+    width: 158.3%;
+}
+
+.Readmore-artist h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.Readmore-discrip {
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.posters {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+  
+.poster {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+.poster img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.plus {
+    height: 48em;
+}
+  
+.poster h1{
+     font-weight: 200%;
+}
+
+.new-tittle {
+    text-align: center;
+  }
+    
+.news-section {
+    background-color: #ff9900;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+  
+.news-section img {
+    margin-left: 200px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+  
+.guestingList li,
+.interviewList li,
+.colablist li {
+    color: #000;
+    font-size: 2em;
+    margin: 8px 0;
+    margin-left: 400px;
+}
+
+.album-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0em;
+}
+
+.title {
+    margin-left: 75em;
+    color: white;
+}
+
+.title1 {
+    margin-left: 74em;
+    color: white;
+}
+
+.title2 {
+    margin-left: 73em;
+    color: white;
+}
+
+.title3 {
+    margin-left: 73em;
+    color: white;
+}
+
+.title4 {
+    margin-left: 73em;
+    color: white;
+}
+
+.title5 {
+    margin-left: 76em;
+    color: white;
+}
+
+.title6 {
+    margin-left: 67em;
+    color: white;
+}
+
+.title7 {
+    margin-left: 67em;
+    color: white;
+}
+
+.title8 {
+    margin-left: 70em;
+    color: white;
+}
+
+.title9 {
+    margin-left: 70em;
+    color: white;
+}
+
+.title10 {
+    margin-left: 70em;
+    color: white;
+}
+
+.title11 {
+    margin-left: 67em;
+    color: white;
+}
+
+.title12 {
+    margin-left: 69em;
+    color: white;
+}
+
+.title13 {
+    margin-left: 74em;
+    color: white;
+}
+
+.title14 {
+    margin-left: 73em;
+    color: white;
+}
+
+.title15 {
+    margin-left: 68em;
+    color: white;
+}
+
+.album-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    
+}
+
+.album-cover {
+    width: 20em;
+    height: auto;
+    margin-left: 25em;
+}
+
+.album-details {
+    background-color: #ffcc99;
+    padding: 1.11em;
+    border-radius: 0.444em;
+    width: 33.33em;
+    height: 18em;
+    margin-left: 12em;
+    column-count: 2;
+}
+
+.tracklist ol {
+    margin: 0;
+    padding-left: 1.11em;
+    color: black;
+}
+
+.tracklist li {
+    margin-bottom: 0.278em;
+}
+
+.Music-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 15em;
+}
+  
+  .Music-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.music-track {
+    background-color: #fbd3c4;
+    color: #000;
+    padding: 20px;
+    margin-top: 4.7em;
+    margin-right: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+  
+.music-track ol {
+    padding-left: 20px;
+}
+  
+.music-track ol li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+  
+.music-track ol li a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+  
+.videos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  
+.videos h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.video iframe {
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    display: block;
+    width: 600px;
+    height: 300px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5em;
+}
+
+.contact-cover {
+    width: 20em;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.text p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.aboutus-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs1 {
+    width: 60em;
+    height: auto;
+    padding: 3em;
+}
+
+.aboutus-details {
+    background-color: #ffcc99;
+    color: #000;
+    width: 66em;
+    height: 16em;
+    padding: 1em;
+}
+
+.aboutus-details p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+}
+
+footer {
+    text-align: center;
+    padding: 0.625em; 
+    background: black;
+    color: white;
+    margin-top: 1.25em;
+}
+
+footer p {
+    font-size: 0.9em; 
+}
+
+@media all and (max-width: 1440px) {
+    .latest-album img {
+        width: 30em;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    header {
+        font-size: 14px;
+    }
+
+    .latest-album img {
+        margin-left: 2.5em;
+        width: 25em;
+    }
+}
+
+@media all and (max-width: 600px) {
+    header {
+        font-size: 4px;
+    }
+
+}
