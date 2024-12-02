@@ -495,13 +495,11 @@ footer p {
 
 @media (max-width: 480px) {
     header {
-        flex-direction: column; 
-        align-items: center;
         font-size: 4px;
     }
 
     .navbar ul a {
-        font-size: 1px;
+        font-size: 2px;
     }
 
     .hero-text {
