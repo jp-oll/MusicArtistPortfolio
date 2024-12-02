@@ -524,4 +524,28 @@ footer p {
         margin-left: 13px;
     }
 
+    .image-grid {
+        width: 100%;
+    }
+
+    .image-grid img {
+        width: 10em;
+        height: 10em;
+    }
+
+    .Readmore-artist {
+        text-align: center;
+        background-color: #ffcc99;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .Readmore-artist h1 {
+        font-size: 15px;
+    }
+
+    .Readmore-discrip {
+        font-size: 13px;
+    }
+
 }
