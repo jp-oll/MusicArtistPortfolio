@@ -495,11 +495,7 @@ footer p {
 
 @media (max-width: 480px) {
     header {
-        font-size: 4px;
-    }
-
-    .navbar ul a {
-        font-size: 2px;
+        font-size: 3px;
     }
 
     .hero-text {
@@ -525,7 +521,7 @@ footer p {
 
     .latest-album img {
         width: 20em;
-        margin-left: 3em;
+        margin-left: 13px;
     }
 
 }
