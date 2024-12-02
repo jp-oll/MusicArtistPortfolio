@@ -495,7 +495,7 @@ footer p {
 
 @media (max-width: 480px) {
     header {
-        font-size: 6px;
+        font-size: 5px;
     }
 
     .hero-text {
