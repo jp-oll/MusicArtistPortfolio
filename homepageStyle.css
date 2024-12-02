@@ -498,6 +498,10 @@ footer p {
         font-size: 4px;
     }
 
+    .navbar ul a {
+        font-size: 3px;
+    }
+
     .hero-text {
         font-size: 7px;
         padding: 10px;
