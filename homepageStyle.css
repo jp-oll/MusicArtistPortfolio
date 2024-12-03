@@ -528,6 +528,10 @@ footer p {
         font-size: 15px;
     }
 
+    .Readmore-discrip {
+        font-size: 13px;
+    }
+
     .posters {
         display: flex;
         flex-direction: column;
@@ -545,6 +549,22 @@ footer p {
         width: 100%;
         height: auto;
         border-radius: 10px;
+    }
+
+    .news-section {
+        flex-direction: column;
+    }
+
+    .news-section img {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .guestingList li,
+    .interviewList li,
+    .colablist li {
+        font-size: 1.5em;
+        margin-left: 0;
     }
 
     .album-section {
@@ -634,7 +654,10 @@ footer p {
     .videos {
         width: 100%;
         margin-top: 1em;
-        margin-left: 4em;
+    }
+
+    .videos h2 {
+        margin-left: 3.3em;
     }
 
     .video {
@@ -643,9 +666,8 @@ footer p {
     }
 
     .video iframe {
-        width: 100%;
+        width: 235px;
         height: auto;
-        max-width: 300px;
         border-radius: 5px;
     }
 
@@ -688,7 +710,7 @@ footer p {
     }
 
     .aboutUs1 {
-        width: 80%;
+        width: 70%;
         height: auto;
         margin-bottom: 1em;
     }
@@ -704,26 +726,6 @@ footer p {
     .aboutus-details p {
         font-size: 1.2em;
         margin: 0;
-    }
-
-    .Readmore-discrip {
-        font-size: 13px;
-    }
-
-    .news-section {
-        flex-direction: column;
-    }
-
-    .news-section img {
-        margin-left: 0;
-        max-width: 100%;
-    }
-
-    .guestingList li,
-    .interviewList li,
-    .colablist li {
-        font-size: 1.5em;
-        margin-left: 0;
     }
 
 }
