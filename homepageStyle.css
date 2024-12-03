@@ -100,9 +100,9 @@ h1 {
 }
 
 .latest-album img {
-    margin-left: 7.90em;
+    margin-left:1em;
     width: 100em;
-    max-width: 40em; 
+    max-width: 35em; 
     border: 0.1875em solid orange;
 }
 .tour img {
@@ -142,7 +142,8 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0px;
-    width: 158.6%;
+    width: 103.8%;
+
 }
 
 .image-grid img {
@@ -155,7 +156,7 @@ h1 {
     margin-bottom: 20px;
     background-color: #ffcc99;
     padding: 10px;
-    width: 158.3%;
+    width: 103%;
 }
 
 .Readmore-artist h1 {
@@ -169,6 +170,7 @@ h1 {
     padding: 20px;
     font-size: 16px;
     line-height: 1.6;
+    text-align: justify;
 }
 
 .posters {
@@ -211,7 +213,7 @@ h1 {
 }
   
 .news-section img {
-    margin-left: 200px;
+    margin-left: 20px;
     max-width: 400px;
     border-radius: 10px;
 }
@@ -222,7 +224,7 @@ h1 {
     color: #000;
     font-size: 2em;
     margin: 8px 0;
-    margin-left: 400px;
+    margin-left: 270px;
 }
 
 .album-section {
@@ -232,82 +234,82 @@ h1 {
 }
 
 .title {
-    margin-left: 75em;
+    margin-left: 54em;
     color: white;
 }
 
 .title1 {
-    margin-left: 74em;
+    margin-left: 53em;
     color: white;
 }
 
 .title2 {
-    margin-left: 73em;
+    margin-left: 52.5em;
     color: white;
 }
 
 .title3 {
-    margin-left: 73em;
+    margin-left: 52.5em;
     color: white;
 }
 
 .title4 {
-    margin-left: 73em;
+    margin-left: 53em;
     color: white;
 }
 
 .title5 {
-    margin-left: 76em;
+    margin-left: 56em;
     color: white;
 }
 
 .title6 {
-    margin-left: 67em;
+    margin-left: 47em;
     color: white;
 }
 
 .title7 {
-    margin-left: 67em;
+    margin-left: 47em;
     color: white;
 }
 
 .title8 {
-    margin-left: 70em;
+    margin-left: 50em;
     color: white;
 }
 
 .title9 {
-    margin-left: 70em;
+    margin-left: 50em;
     color: white;
 }
 
 .title10 {
-    margin-left: 70em;
+    margin-left: 51em;
     color: white;
 }
 
 .title11 {
-    margin-left: 67em;
+    margin-left: 46.5em;
     color: white;
 }
 
 .title12 {
-    margin-left: 69em;
+    margin-left: 48em;
     color: white;
 }
 
 .title13 {
-    margin-left: 74em;
+    margin-left: 53.5em;
     color: white;
 }
 
 .title14 {
-    margin-left: 73em;
+    margin-left: 52.5em;
     color: white;
 }
 
 .title15 {
-    margin-left: 68em;
+    margin-left: 48.5em;
     color: white;
 }
 
@@ -321,7 +323,7 @@ h1 {
 .album-cover {
     width: 20em;
     height: auto;
-    margin-left: 25em;
+    margin-left: 5em;
 }
 
 .album-details {
@@ -349,7 +351,6 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    margin-left: 15em;
 }
   
   .Music-container h2 {
@@ -411,7 +412,7 @@ h1 {
 
 .contact-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 40px;
 }
 
@@ -476,23 +477,6 @@ footer p {
     font-size: 0.9em; 
 }
 
-@media (max-width: 1440px) {
-    .latest-album img {
-        width: 30em;
-    }
-}
-
-@media (max-width: 1024px) {
-    header {
-        font-size: 14px;
-    }
-
-    .latest-album img {
-        margin-left: 2.5em;
-        width: 25em;
-    }
-}
-
 @media (max-width: 480px) {
     header {
         font-size: 4px;
@@ -542,6 +526,184 @@ footer p {
 
     .Readmore-artist h1 {
         font-size: 15px;
+    }
+
+    .posters {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .poster {
+        width: 90%;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .poster img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .album-section {
+        flex-direction: column;
+        align-items: center;
+        margin: 1em;
+    }
+
+    .title,
+    .title1,
+    .title2,
+    .title3,
+    .title4,
+    .title5,
+    .title6,
+    .title7,
+    .title8,
+    .title9,
+    .title10,
+    .title11,
+    .title12,
+    .title13,
+    .title14,
+    .title15 {
+        text-align: center;
+        margin: 0%;
+    }
+
+    .album-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .album-cover {
+        width: 80%;
+        margin: 0;
+    }
+
+    .album-details {
+        width: 80%;
+        margin: 0;
+    }
+
+    .tracklist {
+        padding: 1;
+    }
+
+    .tracklist ol {
+        padding-left: 1;
+    }
+
+    .tracklist li {
+        font-size: 0.8em;
+    }
+
+    .Music-container {
+        padding: 0em;
+        flex-direction: column;
+        align-items: left;
+        margin-left: 4em;
+        margin-right: 10em;
+    }
+
+    .music-track {
+        width: 100%;
+        margin-bottom: 1em;
+        margin-left: 0;
+        text-align: center;
+        padding: 3em;
+        background-color: #fbd3c4;
+        border-radius: 5px;
+    }
+
+    .music-track ol {
+        padding-left: 0;
+    }
+
+    .music-track ol li {
+        margin: 0.5em 0;
+    }
+
+    .music-track ol li a {
+        font-size: 0.9em;
+    }
+
+    .videos {
+        width: 100%;
+        margin-top: 1em;
+        margin-left: 4em;
+    }
+
+    .video {
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .video iframe {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        border-radius: 5px;
+    }
+
+    .contact-section {
+        padding: 1em;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .contact-cover {
+        width: 60%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .text p {
+        font-size: 0.9em;
+        margin: 5px 0;
+    }
+
+    .aboutus-section {
+        padding: 1em;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutus-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutUs1 {
+        width: 80%;
+        height: auto;
+        margin-bottom: 1em;
+    }
+
+    .aboutus-details {
+        background-color: #ffcc99;
+        color: #000;
+        padding: 1em;
+        border-radius: 5px;
+        width: 90%;
+    }
+
+    .aboutus-details p {
+        font-size: 1.2em;
+        margin: 0;
     }
 
     .Readmore-discrip {
