@@ -479,7 +479,12 @@ footer p {
 
 @media (max-width: 480px) {
     header {
-        font-size: 4px;
+        font-size: 6px;
+    }
+
+    .navbar ul {
+        margin-left: 15em;
+        flex-wrap: wrap;
     }
 
     .hero-text {
