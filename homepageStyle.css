@@ -353,7 +353,7 @@ h1 {
     padding: 20px;
 }
   
-  .Music-container h2 {
+.Music-container h2 {
     text-align: center;
     margin-bottom: 10px;
 }
@@ -395,7 +395,7 @@ h1 {
     margin-bottom: 10px;
 }
   
-.video iframe {
+.video video {
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
     border-radius: 8px;
     display: block;
@@ -665,7 +665,7 @@ footer p {
         text-align: center;
     }
 
-    .video iframe {
+    .video video {
         width: 235px;
         height: auto;
         border-radius: 5px;
